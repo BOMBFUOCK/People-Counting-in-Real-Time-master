@@ -107,6 +107,7 @@ def run():
 		# if we are supposed to be writing a video to disk, initialize
 		# the writer
 		if args["output"] is not None and writer is None:
+			fourcc = cv2.VideoWriter_fourcc(*"mp4v")
 			writer = cv2.VideoWriter(args["output"], fourcc, 30,
 				(W, H), True)
 

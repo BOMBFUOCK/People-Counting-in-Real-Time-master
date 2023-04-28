@@ -7,7 +7,7 @@ import os
 import matplotlib.pyplot as plt
 
 
-st.title("播放H264视频示例")
+st.title("Intelligent monitoring of the number of entrants and exits")
 st.header("")
 pwd = "/People-Counting-in-Real-Time-master/People-Counting-in-Real-Time-master/Log.csv"
 
@@ -32,7 +32,7 @@ with st.sidebar:
     st.pyplot(fig)
 
 # 获取本地H264文件的路径
-file_path = "/People-Counting-in-Real-Time-master/People-Counting-in-Real-Time-master/output.h264"
+file_path = "/People-Counting-in-Real-Time-master/People-Counting-in-Real-Time-master/output1.h264"
 
 # 将H264文件转换为MP4格式
 converted_file_path = os.path.splitext(file_path)[0] + ".mp4"

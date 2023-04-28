@@ -23,7 +23,7 @@ with st.sidebar:
     st.sidebar.write("Count the Enter people and Out people")
     people = df.iloc[df.shape[0] - 1,1]
     people2 = df.iloc[df.shape[1] - 1,2]
-    y = [people,people2]
+    y = [7,4]
     x = ['In','Out']
     fig, ax = plt.subplots()
     ax.set_xlabel("People behavior", fontsize=16)
